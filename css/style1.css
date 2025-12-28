@@ -1,0 +1,152 @@
+.skills-section {
+  background: white;
+  padding: 80px 20px;
+  color: #0f172a;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* ===== Title ===== */
+.section-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.section-title span {
+  color: #2563eb; /* bleu moderne */
+}
+
+/* ===== Framework Chips ===== */
+.frameworks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 70px;
+}
+
+.chip {
+  padding: 12px 26px;
+  border: 1px solid #dbeafe;
+  border-radius: 30px;
+  background: white;
+  color: #1e3a8a;
+  font-weight: 500;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.04);
+  transition: all 0.3s ease;
+}
+
+.chip:hover {
+  background: #2563eb;
+  color: white;
+  transform: translateY(-3px);
+}
+
+/* ===== Stats ===== */
+.stats {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.stat-card {
+  background: white;
+  border-radius: 20px;
+  padding: 45px 30px;
+  width: 300px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+}
+
+.stat-card h3 {
+  font-size: 56px;
+  color: #2563eb;
+  margin-bottom: 10px;
+}
+
+.stat-card p {
+  font-size: 16px;
+  color: #2563eb;
+}
+
+
+
+
+
+
+.info-section {
+  background: white;
+  padding: 80px 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* ===== Cards ===== */
+.info-card {
+  background: white;
+  border-radius: 22px;
+  padding: 35px;
+  box-shadow: 0 20px 45px rgba(0,0,0,0.08);
+}
+
+.card-title {
+  font-size: 22px;
+  margin-bottom: 25px;
+  color: #0f172a;
+}
+
+/* ===== Pills ===== */
+.pill {
+  display: block;
+  padding: 12px 18px;
+  margin-bottom: 14px;
+  background: #f1f5f9;
+  border-radius: 999px;
+  color: #303031;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.pill:hover {
+  background: #2563eb;
+  color: white;
+}
+
+/* ===== Languages ===== */
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+  font-weight: 500;
+}
+
+.badge {
+  padding: 6px 14px;
+  border-radius: 999px;
+  background: #e0f2fe;
+  color: #303031;
+  font-size: 14px;
+}
+
+
+
+
+.contact-link {
+  display: block;
+  max-width: 100%;
+  text-align: center;
+  word-break: break-word;   /* coupe l’email si trop long */
+  overflow-wrap: break-word;
+  color: #4f6cff;           /* bleu moderne */
+  font-weight: 500;
+}
